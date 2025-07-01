@@ -1,0 +1,32 @@
+Arduino Learning Materials Concepts
+===================================
+
+a. Data Types
+   1. int(unsigned)
+   2. float
+   3. long(unsigned)
+   4. double
+   5. byte
+   6. boolean
+   7. char
+
+b. Programming Structure
+   void setup(){
+   }
+
+   void loop(){
+   }
+
+   to write or read wiht pin
+      pinMode(pinno, OUTPUT);             // to set a output to pinno 
+      digitalWrite(pinno, OUTPUT_Val);    // output => HIGH/LOW
+   
+   to setup a delay -
+      delay(time)   // time => milisecs
+
+   to write in serial monitor 
+      Serial.begin(9600);  // to power the serial monitor
+      Serial.print();      // to print
+      Serial.println();    // to print with new line
+
+
